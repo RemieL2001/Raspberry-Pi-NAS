@@ -15,6 +15,24 @@ OpenMediaVault : NAS를 구축하기 위한 오픈소스 기반의 운영체제(
 
 NextCloud : 오픈소스 기반의 자체 호스팅 가능한 클라우드 서비스 플랫폼으로 파일 공유, 협업, 문서 편집 등이 가능하다.(개인 서버로 클라우드화 시키는 것임을 명심할 것!)
 
+
+
+Implementation NAS (Network Attached Storage) with Raspberry Pi 4
+
+Definition of NAS: Network Attached Storage is a personal file server connected to HDD or SSD, serving as a storage device system accessed over the network for data retrieval purposes.
+
+Advantages of NAS: In terms of security (stronger security through self-management compared to storing data in corporate data centers), cost-effectiveness (initial costs may be somewhat higher compared to cloud services, but in the long run, it allows for efficient cost management, considering the increasing costs of cloud services), efficiency, and convenience (quick access and sharing of data when needed by self-managing data).
+
+Disadvantages of NAS: Network connection is essential, complex management (requires considerations such as hard disk lifespan and data loss prevention), vulnerability to hacking, etc.
+
+Despite the existing drawbacks, reasons for implementing NAS: Ease of self-management, remote access, centralized data management.
+
+Before explaining the setup process, let's delve into OMV 6 and Nextcloud.
+
+OpenMediaVault (OMV): An open-source operating system based on Linux Debian for building NAS. OMV allows users to configure and manage NAS systems through a web interface.
+
+NextCloud: An open-source, self-hosted cloud service platform that enables file sharing, collaboration, and document editing. It's essential to note that it transforms your personal server into a cloud service.
+
 ------ 설치 및 설정------
 1. 라즈베리파이 OS 설치 (Raspbian) : OMV6를 설치하기 위해서는 64비트 Bullseye Raspbian OS Lite로 설치해야만 한다.(OS Lite는 Desktop버전이 아님) Desktop 버전은 OMV6에서 지원하지 않음. 참고로 설치 전에 Raspberry Pi Imager 설정에서 ssh설정과 와이파이 연결 설정을 하자.
 
