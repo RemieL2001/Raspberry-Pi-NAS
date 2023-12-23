@@ -1,5 +1,8 @@
 # Raspberry-Pi-NAS
 Raspberry Pi 4를 이용한 NAS(Network Attached Storage) 구축
+
+
+
 구성환경
 CPU : 1.5GHz ARM Cortex-A72 MP4
 GPU : Broadcom VideoCore VI MP2 500 MHz
