@@ -78,3 +78,5 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 웹서버(apache2 or nginx), PHP가 자동으로 같이 설치되어 세팅되기때문에 따로 설치할 필요는 없다.
 
 설치가 다 되었으면 웹 브라우저에 ip를 입력하여 WebGUI에 접속한다.
+
+추후 추가할 예정..
