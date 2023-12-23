@@ -1,15 +1,6 @@
 # Raspberry-Pi-NAS
 Raspberry Pi 4를 이용한 NAS(Network Attached Storage) 구축
 
-
-
-구성환경
-CPU : 1.5GHz ARM Cortex-A72 MP4
-GPU : Broadcom VideoCore VI MP2 500 MHz
-RAM : 8GB LPDDR4-3200 SDRAM
-Ethernet : Gigabit Ethernet
-WI-FI : 2.4 GHz and 5.0 GHz IEEE 802.11b/g/n/ac
-
 NAS의 정의 : Network Attached Storage로 HDD 또는 SSD를 연결한 개인용 파일서버로서, 네트워크로 접속하여 데이터에 접근하는 용도의 저장장치 시스템이다.
 
 NAS의 장점 : 보안측면(기업의 데이터센터에 데이터가 저장되는 것보다 자체 서버를 구성해서 직접 관리함으로써 보안에 강하다.), 비용측면(초기 비용은 클라우드 서비스 대비 다소 비싼 점이 있으나 장기적으로 봤을때 비용을 효율적으로 관리할 수 있다. 클라우드 서비스의 비용 증가도 원인), 효율성과 편의성(데이터를 자체적으로 관리함으로써 필요한 시점에 빠르게 데이터에 접근하고 공유가 가능하다.)
