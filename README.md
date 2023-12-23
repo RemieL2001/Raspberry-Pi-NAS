@@ -1,7 +1,7 @@
 # Raspberry-Pi-NAS
 Raspberry Pi 4를 이용한 NAS(Network Attached Storage) 구축
 
-요구사항 : 리눅스 활용, 네트워크 지식, 파일시스템 관리 지식 등
+요구사항 : 리눅스 활용(패키지 관리, 권한 관리, 프로세스 관리, 네트워크 관리, 시스템 정보 확인), 네트워크 지식(DHCP, Internet Protocol, Ethernet, WI-FI) 파일시스템 관리 지식(SMB) 등
 
 NAS의 정의 : Network Attached Storage로 HDD 또는 SSD를 연결한 개인용 파일서버로서, 네트워크로 접속하여 데이터에 접근하는 용도의 저장장치 시스템이다.
 
